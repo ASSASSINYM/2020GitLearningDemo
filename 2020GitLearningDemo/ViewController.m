@@ -54,6 +54,7 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     MTTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MTTableViewCell"];
+    NSLog(@"indexPath-------%ld",indexPath.row);
     return cell;
 }
 
