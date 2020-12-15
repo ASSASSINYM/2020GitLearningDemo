@@ -56,5 +56,9 @@
     MTTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MTTableViewCell"];
     return cell;
 }
+-(void)fuckIt {
+    
+}
+
 
 @end
