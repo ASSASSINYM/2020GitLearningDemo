@@ -23,5 +23,11 @@
     // Do any additional setup after loading the view.
 }
 
+#pragma mark - custom method
+
+-(void)showAlert {
+    
+}
+
 
 @end
