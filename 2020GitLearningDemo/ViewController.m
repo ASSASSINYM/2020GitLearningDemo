@@ -8,6 +8,8 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+    
+@property(nonatomic,copy)NSString *year;
 
 @property(nonatomic,copy)NSString *name;
 @property(nonatomic,assign)BOOL isLogin;
