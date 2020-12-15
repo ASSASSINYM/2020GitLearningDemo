@@ -21,6 +21,7 @@
 		652CAF5A25884ED2007A4C3D /* MTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF5925884ED2007A4C3D /* MTTableViewCell.m */; };
 		652CAF5F25884FDD007A4C3D /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 652CAF5E25884FDD007A4C3D /* girl.jpg */; };
 		652CAF6525885020007A4C3D /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF6425885020007A4C3D /* CellModel.m */; };
+		652CAF6E258852DB007A4C3D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF6D258852DB007A4C3D /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		652CAF5E25884FDD007A4C3D /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
 		652CAF6325885020007A4C3D /* CellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
 		652CAF6425885020007A4C3D /* CellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
+		652CAF6C258852DB007A4C3D /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		652CAF6D258852DB007A4C3D /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +139,8 @@
 				652CAF5925884ED2007A4C3D /* MTTableViewCell.m */,
 				652CAF6325885020007A4C3D /* CellModel.h */,
 				652CAF6425885020007A4C3D /* CellModel.m */,
+				652CAF6C258852DB007A4C3D /* Dog.h */,
+				652CAF6D258852DB007A4C3D /* Dog.m */,
 			);
 			path = 2020GitLearningDemo;
 			sourceTree = "<group>";
@@ -288,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652CAF6E258852DB007A4C3D /* Dog.m in Sources */,
 				652CAF5A25884ED2007A4C3D /* MTTableViewCell.m in Sources */,
 				652CAF2D25884974007A4C3D /* main.m in Sources */,
 				652CAF2525884971007A4C3D /* _020GitLearningDemo.xcdatamodeld in Sources */,
