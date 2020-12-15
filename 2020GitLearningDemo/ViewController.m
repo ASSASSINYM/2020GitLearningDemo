@@ -55,6 +55,10 @@
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     MTTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MTTableViewCell"];
     NSLog(@"indexPath-------%ld",indexPath.row);
+    
+    UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(200, 100, 100, 100)];
+    redView.backgroundColor = [UIColor redColor];
+    [cell addSubview:redView];
     return cell;
 }
 
