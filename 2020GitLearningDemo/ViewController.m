@@ -26,6 +26,7 @@
 #pragma mark - custom method
 
 -(void)showAlert {
+-(void)customMethod {
     
 }
 
