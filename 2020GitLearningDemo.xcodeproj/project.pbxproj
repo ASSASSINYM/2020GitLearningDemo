@@ -22,6 +22,7 @@
 		652CAF5F25884FDD007A4C3D /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 652CAF5E25884FDD007A4C3D /* girl.jpg */; };
 		652CAF6525885020007A4C3D /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF6425885020007A4C3D /* CellModel.m */; };
 		652CAF6E258852DB007A4C3D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF6D258852DB007A4C3D /* Dog.m */; };
+		652CAF8625885467007A4C3D /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF8525885467007A4C3D /* Cat.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,8 @@
 		652CAF6425885020007A4C3D /* CellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 		652CAF6C258852DB007A4C3D /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		652CAF6D258852DB007A4C3D /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		652CAF8425885467007A4C3D /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
+		652CAF8525885467007A4C3D /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -141,6 +144,8 @@
 				652CAF6425885020007A4C3D /* CellModel.m */,
 				652CAF6C258852DB007A4C3D /* Dog.h */,
 				652CAF6D258852DB007A4C3D /* Dog.m */,
+				652CAF8425885467007A4C3D /* Cat.h */,
+				652CAF8525885467007A4C3D /* Cat.m */,
 			);
 			path = 2020GitLearningDemo;
 			sourceTree = "<group>";
@@ -297,6 +302,7 @@
 				652CAF5A25884ED2007A4C3D /* MTTableViewCell.m in Sources */,
 				652CAF2D25884974007A4C3D /* main.m in Sources */,
 				652CAF2525884971007A4C3D /* _020GitLearningDemo.xcdatamodeld in Sources */,
+				652CAF8625885467007A4C3D /* Cat.m in Sources */,
 				652CAF1F25884971007A4C3D /* ViewController.m in Sources */,
 				652CAF1925884971007A4C3D /* AppDelegate.m in Sources */,
 				652CAF1C25884971007A4C3D /* SceneDelegate.m in Sources */,
