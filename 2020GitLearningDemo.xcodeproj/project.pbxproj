@@ -17,6 +17,10 @@
 		652CAF2D25884974007A4C3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF2C25884974007A4C3D /* main.m */; };
 		652CAF3725884975007A4C3D /* _020GitLearningDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF3625884975007A4C3D /* _020GitLearningDemoTests.m */; };
 		652CAF4225884975007A4C3D /* _020GitLearningDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF4125884975007A4C3D /* _020GitLearningDemoUITests.m */; };
+		652CAF5425884EB9007A4C3D /* UIViewController+CellIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF5225884EB9007A4C3D /* UIViewController+CellIdentifier.m */; };
+		652CAF5A25884ED2007A4C3D /* MTTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF5925884ED2007A4C3D /* MTTableViewCell.m */; };
+		652CAF5F25884FDD007A4C3D /* girl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 652CAF5E25884FDD007A4C3D /* girl.jpg */; };
+		652CAF6525885020007A4C3D /* CellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF6425885020007A4C3D /* CellModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +60,13 @@
 		652CAF3D25884975007A4C3D /* 2020GitLearningDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2020GitLearningDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		652CAF4125884975007A4C3D /* _020GitLearningDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _020GitLearningDemoUITests.m; sourceTree = "<group>"; };
 		652CAF4325884975007A4C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		652CAF5225884EB9007A4C3D /* UIViewController+CellIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CellIdentifier.m"; sourceTree = "<group>"; };
+		652CAF5325884EB9007A4C3D /* UIViewController+CellIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CellIdentifier.h"; sourceTree = "<group>"; };
+		652CAF5825884ED2007A4C3D /* MTTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTTableViewCell.h; sourceTree = "<group>"; };
+		652CAF5925884ED2007A4C3D /* MTTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTTableViewCell.m; sourceTree = "<group>"; };
+		652CAF5E25884FDD007A4C3D /* girl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = girl.jpg; sourceTree = "<group>"; };
+		652CAF6325885020007A4C3D /* CellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CellModel.h; sourceTree = "<group>"; };
+		652CAF6425885020007A4C3D /* CellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CellModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +117,9 @@
 		652CAF1625884971007A4C3D /* 2020GitLearningDemo */ = {
 			isa = PBXGroup;
 			children = (
+				652CAF5E25884FDD007A4C3D /* girl.jpg */,
+				652CAF5325884EB9007A4C3D /* UIViewController+CellIdentifier.h */,
+				652CAF5225884EB9007A4C3D /* UIViewController+CellIdentifier.m */,
 				652CAF1725884971007A4C3D /* AppDelegate.h */,
 				652CAF1825884971007A4C3D /* AppDelegate.m */,
 				652CAF1A25884971007A4C3D /* SceneDelegate.h */,
@@ -118,6 +132,10 @@
 				652CAF2B25884974007A4C3D /* Info.plist */,
 				652CAF2C25884974007A4C3D /* main.m */,
 				652CAF2325884971007A4C3D /* _020GitLearningDemo.xcdatamodeld */,
+				652CAF5825884ED2007A4C3D /* MTTableViewCell.h */,
+				652CAF5925884ED2007A4C3D /* MTTableViewCell.m */,
+				652CAF6325885020007A4C3D /* CellModel.h */,
+				652CAF6425885020007A4C3D /* CellModel.m */,
 			);
 			path = 2020GitLearningDemo;
 			sourceTree = "<group>";
@@ -245,6 +263,7 @@
 				652CAF2A25884974007A4C3D /* LaunchScreen.storyboard in Resources */,
 				652CAF2725884974007A4C3D /* Assets.xcassets in Resources */,
 				652CAF2225884971007A4C3D /* Main.storyboard in Resources */,
+				652CAF5F25884FDD007A4C3D /* girl.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,11 +288,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652CAF5A25884ED2007A4C3D /* MTTableViewCell.m in Sources */,
 				652CAF2D25884974007A4C3D /* main.m in Sources */,
 				652CAF2525884971007A4C3D /* _020GitLearningDemo.xcdatamodeld in Sources */,
 				652CAF1F25884971007A4C3D /* ViewController.m in Sources */,
 				652CAF1925884971007A4C3D /* AppDelegate.m in Sources */,
 				652CAF1C25884971007A4C3D /* SceneDelegate.m in Sources */,
+				652CAF5425884EB9007A4C3D /* UIViewController+CellIdentifier.m in Sources */,
+				652CAF6525885020007A4C3D /* CellModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
