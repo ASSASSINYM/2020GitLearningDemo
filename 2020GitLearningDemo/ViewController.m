@@ -58,7 +58,8 @@
     
     UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(200, 100, 100, 100)];
     redView.backgroundColor = [UIColor redColor];
-    [cell addSubview:redView];
+    //[cell addSubview:redView];
+    [cell.contentView addSubview:redView];
     return cell;
 }
 
