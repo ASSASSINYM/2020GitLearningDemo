@@ -25,6 +25,8 @@
 		652CAF8625885467007A4C3D /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF8525885467007A4C3D /* Cat.m */; };
 		653F8E7725B51E8C0015C598 /* Git - About Version Control.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 653F8E7625B51E8C0015C598 /* Git - About Version Control.pdf */; };
 		653F8E7C25B522E30015C598 /* Git - What is Git?.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 653F8E7B25B522E30015C598 /* Git - What is Git?.pdf */; };
+		653F8E8325B526D10015C598 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = 653F8E8225B526D10015C598 /* NSString+Hash.m */; };
+		653F8E8925B526F80015C598 /* CheckSumViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653F8E8825B526F80015C598 /* CheckSumViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,10 @@
 		652CAF8525885467007A4C3D /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		653F8E7625B51E8C0015C598 /* Git - About Version Control.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Git - About Version Control.pdf"; sourceTree = "<group>"; };
 		653F8E7B25B522E30015C598 /* Git - What is Git?.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Git - What is Git?.pdf"; sourceTree = "<group>"; };
+		653F8E8125B526D10015C598 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		653F8E8225B526D10015C598 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		653F8E8725B526F80015C598 /* CheckSumViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CheckSumViewController.h; sourceTree = "<group>"; };
+		653F8E8825B526F80015C598 /* CheckSumViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CheckSumViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +133,7 @@
 		652CAF1625884971007A4C3D /* 2020GitLearningDemo */ = {
 			isa = PBXGroup;
 			children = (
+				653F8E8025B526B30015C598 /* Checksumming */,
 				653F8E7625B51E8C0015C598 /* Git - About Version Control.pdf */,
 				653F8E7B25B522E30015C598 /* Git - What is Git?.pdf */,
 				652CAF5E25884FDD007A4C3D /* girl.jpg */,
@@ -172,6 +179,17 @@
 				652CAF4325884975007A4C3D /* Info.plist */,
 			);
 			path = 2020GitLearningDemoUITests;
+			sourceTree = "<group>";
+		};
+		653F8E8025B526B30015C598 /* Checksumming */ = {
+			isa = PBXGroup;
+			children = (
+				653F8E8125B526D10015C598 /* NSString+Hash.h */,
+				653F8E8225B526D10015C598 /* NSString+Hash.m */,
+				653F8E8725B526F80015C598 /* CheckSumViewController.h */,
+				653F8E8825B526F80015C598 /* CheckSumViewController.m */,
+			);
+			path = Checksumming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,7 +327,9 @@
 				652CAF6E258852DB007A4C3D /* Dog.m in Sources */,
 				652CAF5A25884ED2007A4C3D /* MTTableViewCell.m in Sources */,
 				652CAF2D25884974007A4C3D /* main.m in Sources */,
+				653F8E8325B526D10015C598 /* NSString+Hash.m in Sources */,
 				652CAF2525884971007A4C3D /* _020GitLearningDemo.xcdatamodeld in Sources */,
+				653F8E8925B526F80015C598 /* CheckSumViewController.m in Sources */,
 				652CAF8625885467007A4C3D /* Cat.m in Sources */,
 				652CAF1F25884971007A4C3D /* ViewController.m in Sources */,
 				652CAF1925884971007A4C3D /* AppDelegate.m in Sources */,
