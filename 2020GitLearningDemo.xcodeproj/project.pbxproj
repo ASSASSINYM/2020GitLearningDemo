@@ -24,6 +24,7 @@
 		652CAF6E258852DB007A4C3D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF6D258852DB007A4C3D /* Dog.m */; };
 		652CAF8625885467007A4C3D /* Cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 652CAF8525885467007A4C3D /* Cat.m */; };
 		653F8E7725B51E8C0015C598 /* Git - About Version Control.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 653F8E7625B51E8C0015C598 /* Git - About Version Control.pdf */; };
+		653F8E7C25B522E30015C598 /* Git - What is Git?.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 653F8E7B25B522E30015C598 /* Git - What is Git?.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		652CAF8425885467007A4C3D /* Cat.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cat.h; sourceTree = "<group>"; };
 		652CAF8525885467007A4C3D /* Cat.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cat.m; sourceTree = "<group>"; };
 		653F8E7625B51E8C0015C598 /* Git - About Version Control.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Git - About Version Control.pdf"; sourceTree = "<group>"; };
+		653F8E7B25B522E30015C598 /* Git - What is Git?.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Git - What is Git?.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				653F8E7625B51E8C0015C598 /* Git - About Version Control.pdf */,
+				653F8E7B25B522E30015C598 /* Git - What is Git?.pdf */,
 				652CAF5E25884FDD007A4C3D /* girl.jpg */,
 				652CAF5325884EB9007A4C3D /* UIViewController+CellIdentifier.h */,
 				652CAF5225884EB9007A4C3D /* UIViewController+CellIdentifier.m */,
@@ -275,6 +278,7 @@
 			files = (
 				652CAF2A25884974007A4C3D /* LaunchScreen.storyboard in Resources */,
 				652CAF2725884974007A4C3D /* Assets.xcassets in Resources */,
+				653F8E7C25B522E30015C598 /* Git - What is Git?.pdf in Resources */,
 				652CAF2225884971007A4C3D /* Main.storyboard in Resources */,
 				653F8E7725B51E8C0015C598 /* Git - About Version Control.pdf in Resources */,
 				652CAF5F25884FDD007A4C3D /* girl.jpg in Resources */,
